@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+</head>
+<body>
+
+<h2>Calculadora</h2>
+
+<form action="calcular.php" method="POST">
+    
+    <label>Número 1:</label><br>
+    <input type="text" name="num1"><br><br>
+
+    <label>Número 2:</label><br>
+    <input type="text" name="num2"><br><br>
+
+    <label>Operación:</label><br>
+    <select name="operacion">
+        <option value="suma">Suma</option>
+        <option value="resta">Resta</option>
+        <option value="multiplicacion">Multiplicación</option>
+        <option value="division">División</option>
+        <option value="potencia">Potencia</option>
+        <option value="factorial">Factorial (solo num1)</option>
+        <option value="mayor">Número mayor</option>
+    </select><br><br>
+
+    <input type="submit" value="Calcular">
+
+</form>
+
+</body>
+</html>
